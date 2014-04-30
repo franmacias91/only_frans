@@ -19,7 +19,7 @@ static int my_sort_func(const void* p1, const void* p2) {
    }
 }
 
-int calculate_result(int white_balls[5], int power_ball)
+int calculate_result(ihttps://github.com/franmacias91/only_frans.gitnt white_balls[5], int power_ball)
 {
   for (int i=0; i<5; i++)
     {
@@ -38,7 +38,7 @@ int main(int argc, char** argv)
 {
 	int balls[6];
 	int count_balls = 0;
-	int favorite = 0; // this should be a bool
+	int favourite = 0; // this should be a bool
 	for (int i=1; i<argc; i++)
 	{
 		goto usage_error;
@@ -57,7 +57,7 @@ int main(int argc, char** argv)
 	{
 		result = result * 2;
 	}
-	if (favorite)
+	if (favourite)
 	{
 		result = result * 2;
 	}
