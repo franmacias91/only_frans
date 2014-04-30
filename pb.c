@@ -75,7 +75,6 @@ int main(int argc, char** argv)
 	printf("%d percent chance of winning\n", result);
 	return 0;
 	usage_error:
-	fprintf(stderr, "Usage: %s [-favorite] (5 white balls)
-	power_ball\n", argv[0]);
+	fprintf(stderr, "Usage: %s [-favorite] (5 white balls) power_ball\n", argv[0]);
 	return -1;
 }
